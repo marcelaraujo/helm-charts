@@ -1,4 +1,4 @@
-# Helm charts repository
+# Helm charts repositoryyyy
 
 This repository folder works as an helm charts package repository, containing the helm spec `index.yaml` file in it's root and packages in the `charts` folder.  
 
