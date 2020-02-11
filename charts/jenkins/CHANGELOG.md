@@ -5,7 +5,8 @@ numbering uses [semantic versioning](http://semver.org).
 
 NOTE: The change log until version 1.5.7 is auto generated based on git commits. Those include a reference to the git commit to be able to get more details.
 
-## 1.9.17
+## 1.9.18
+
 Make `jenkins-home` attachable to Azure Disks without pvc
 
 ```
@@ -16,6 +17,10 @@ Make `jenkins-home` attachable to Azure Disks without pvc
       diskName: myAKSDisk
       diskURI: /subscriptions/<subscriptionID>/resourceGroups/MC_myAKSCluster_myAKSCluster_eastus/providers/Microsoft.Compute/disks/myAKSDisk
 ```
+
+## 1.9.17
+
+Fix admin role lack the permission to grant verbs: ["*"] to the selected resources, only the cluster-admin can do that
 
 ## 1.9.16
 
