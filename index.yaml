@@ -3,7 +3,36 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2020-01-17T02:48:39.402123Z"
+    created: "2020-02-11T10:41:27.004957Z"
+    description: Open source continuous integration server. It supports multiple SCM
+      tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
+      Maven-based projects as well as arbitrary scripts.
+    digest: 2580c86ef2f2748663507e0bf48b7012ae366498a04dfa14dbc677f4ba1645d4
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: viglesias@google.com
+      name: viglesiasce
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: garridomota@gmail.com
+      name: mogaal
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    - https://github.com/maorfr/kube-tasks
+    - https://github.com/jenkinsci/configuration-as-code-plugin
+    urls:
+    - https://marcelaraujo.github.io/helm-charts/jenkins-1.9.18.tgz
+    version: 1.9.18
+  - apiVersion: v1
+    appVersion: lts
+    created: "2020-02-11T10:41:26.9987Z"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -32,7 +61,7 @@ entries:
     version: 1.9.17
   - apiVersion: v1
     appVersion: lts
-    created: "2020-01-17T02:48:39.396342Z"
+    created: "2020-02-11T10:41:26.99548Z"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -59,4 +88,4 @@ entries:
     urls:
     - https://marcelaraujo.github.io/helm-charts/jenkins-1.0.0.tgz
     version: 1.0.0
-generated: "2020-01-17T02:48:39.388468Z"
+generated: "2020-02-11T10:41:26.984523Z"
