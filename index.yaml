@@ -3,7 +3,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2020-02-11T23:40:51.635201Z"
+    created: "2020-03-03T23:18:17.846565Z"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -32,7 +32,7 @@ entries:
     version: 1.9.18
   - apiVersion: v1
     appVersion: lts
-    created: "2020-02-11T23:40:51.631924Z"
+    created: "2020-03-03T23:18:17.843566Z"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -61,7 +61,7 @@ entries:
     version: 1.9.17
   - apiVersion: v1
     appVersion: lts
-    created: "2020-02-11T23:40:51.626054Z"
+    created: "2020-03-03T23:18:17.839234Z"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -91,7 +91,17 @@ entries:
   webencryptor:
   - apiVersion: v2
     appVersion: lts
-    created: "2020-02-11T23:40:51.636495Z"
+    created: "2020-03-03T23:18:17.847588Z"
+    description: A Helm chart for Kubernetes
+    digest: 3b21fb66510c042d55090fcba926339f0902a703bc661d75db451e79d88e1a00
+    name: webencryptor
+    type: application
+    urls:
+    - https://marcelaraujo.github.io/helm-charts/webencryptor-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: lts
+    created: "2020-03-03T23:18:17.847088Z"
     description: A Helm chart for Kubernetes
     digest: b616c032300bf6e6df0a01a161a58befb13c77e306adf2989e58352c3411b23e
     name: webencryptor
@@ -99,4 +109,4 @@ entries:
     urls:
     - https://marcelaraujo.github.io/helm-charts/webencryptor-1.0.0.tgz
     version: 1.0.0
-generated: "2020-02-11T23:40:51.613764Z"
+generated: "2020-03-03T23:18:17.833539Z"
