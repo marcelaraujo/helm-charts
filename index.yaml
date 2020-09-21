@@ -3,7 +3,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2020-03-03T23:18:17.846565Z"
+    created: "2020-09-21T18:57:53.653383+01:00"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -32,7 +32,7 @@ entries:
     version: 1.9.18
   - apiVersion: v1
     appVersion: lts
-    created: "2020-03-03T23:18:17.843566Z"
+    created: "2020-09-21T18:57:53.643917+01:00"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -61,7 +61,7 @@ entries:
     version: 1.9.17
   - apiVersion: v1
     appVersion: lts
-    created: "2020-03-03T23:18:17.839234Z"
+    created: "2020-09-21T18:57:53.640721+01:00"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -88,10 +88,39 @@ entries:
     urls:
     - https://marcelaraujo.github.io/helm-charts/jenkins-1.0.0.tgz
     version: 1.0.0
+  sonarqube:
+  - apiVersion: v1
+    appVersion: 8.2-community
+    created: "2020-09-21T18:57:53.660332+01:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.6.4
+    description: SonarQube is an open sourced code quality scanning tool
+    digest: ec02686623154c32b7ee2f89a3289100c3f45ebab3cbca43e6c0dd1b0d969766
+    home: https://www.sonarqube.org/
+    icon: https://www.sonarqube.org/assets/logo-31ad3115b1b4b120f3d1efd63e6b13ac9f1f89437f0cf6881cc4d8b5603a52b4.svg
+    keywords:
+    - coverage
+    - security
+    - code
+    - quality
+    maintainers:
+    - email: rjkernick@gmail.com
+      name: rjkernick
+    - email: tsiddique@live.com
+      name: tsiddique
+    name: sonarqube
+    sources:
+    - https://github.com/SonarSource/docker-sonarqube
+    urls:
+    - https://marcelaraujo.github.io/helm-charts/sonarqube-6.7.3.tgz
+    version: 6.7.3
   webencryptor:
   - apiVersion: v2
     appVersion: lts
-    created: "2020-03-03T23:18:17.847588Z"
+    created: "2020-09-21T18:57:53.661762+01:00"
     description: A Helm chart for Kubernetes
     digest: 3b21fb66510c042d55090fcba926339f0902a703bc661d75db451e79d88e1a00
     name: webencryptor
@@ -101,7 +130,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: lts
-    created: "2020-03-03T23:18:17.847088Z"
+    created: "2020-09-21T18:57:53.661043+01:00"
     description: A Helm chart for Kubernetes
     digest: b616c032300bf6e6df0a01a161a58befb13c77e306adf2989e58352c3411b23e
     name: webencryptor
@@ -109,4 +138,4 @@ entries:
     urls:
     - https://marcelaraujo.github.io/helm-charts/webencryptor-1.0.0.tgz
     version: 1.0.0
-generated: "2020-03-03T23:18:17.833539Z"
+generated: "2020-09-21T18:57:53.637031+01:00"
